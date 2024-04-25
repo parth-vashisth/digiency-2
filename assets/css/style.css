@@ -39,6 +39,10 @@
     position: fixed;
     box-shadow: 0px 1px 10px 0px #0000001A;
     padding: 15px;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    background-color: var(--color-white);
 }
 
 .bgclr {
@@ -53,6 +57,11 @@
     text-align: left;
     color: var(--color-black);
     max-width: 440px;
+    margin-top: 130px;
+}
+
+.mt-130 {
+    margin-top: 130px;
 }
 
 .sec1-txt {
@@ -78,7 +87,8 @@
 .pt-130 {
     padding-top: 130px;
 }
-.pb-130{
+
+.pb-130 {
     padding-bottom: 130px;
 }
 
@@ -92,9 +102,37 @@
     height: 50px;
     background-color: var(--color-orange);
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
     color: var(--color-white);
     margin-top: 50px;
+}
+
+.side-icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+}
+
+.align1 {
+    top: 40%;
+    right: -100%;
+    transition: all 1s linear;
+}
+
+.icon-hover:hover .align1 {
+    right: 1%;
+}
+
+.side-icon:hover svg path {
+    fill: white;
+}
+
+.side-icon:hover {
+    background-color: var(--color-orange);
 }
 
 :root {
