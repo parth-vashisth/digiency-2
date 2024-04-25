@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+.logo {
+    font-family: "Work Sans", sans-serif;
+    font-size: 39.06px;
+    line-height: var(--fs-7xl);
+    text-align: left;
+    font-weight: 600;
+    color: var(--color-orange);
+}
+
+.logo1 {
+    color: var(--color-black);
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-6xl);
+    font-weight: 600;
+    line-height: 45.77px;
+    text-align: left;
+}
+
+.navlink {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-2xl);
+    font-weight: 500;
+    line-height: 24.72px;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.menu {
+    position: fixed;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    padding: 15px;
+}
+
+.bgclr {
+    background-color: var(--color-FFF7F4);
+}
+
+.sec1head {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-8xl);
+    font-weight: 700;
+    line-height: 59.33px;
+    text-align: left;
+    color: var(--color-black);
+    max-width: 440px;
+}
+
+.sec1-txt {
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: var(--color-7B7B7B);
+    max-width: 493px;
+    margin-top: 24px;
+}
+
+.head2 {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-8xl);
+    font-weight: 700;
+    line-height: 59.33px;
+    text-align: left;
+    color: var(--color-orange);
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+.pb-130{
+    padding-bottom: 130px;
+}
+
+.btn1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-2xl);
+    font-weight: 500;
+    line-height: 24.72px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-orange);
+    border: none;
+    border-radius: 5px; 
+    color: var(--color-white);
+    margin-top: 50px;
+}
+
+:root {
+    /* font-size */
+    --fs-9: 9px;
+    --fs-10: 10px;
+    --fs-11: 11px;
+    --fs-sm: 12px;
+    --fs-base: 14px;
+    --fs-15: 15px;
+    --fs-lg: 16px;
+    --fs-xl: 18px;
+    --fs-2xl: 20px;
+    --fs-3xl: 22px;
+    --fs-4xl: 25px;
+    --fs-5xl: 32px;
+    --fs-6xl: 39px;
+    --fs-7xl: 44px;
+    --fs-8xl: 48px;
+    /* color */
+    --color-white: white;
+    --color-black: #373737;
+    --color-orange: #FF5300;
+    --color-7B7B7B: #7B7B7B;
+    --color-FFF7F4: #FFF7F4;
+    --color-00ACFF: #00ACFF;
+}
