@@ -272,6 +272,86 @@
     margin-top: 80px;
 }
 
+.sec4-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
+    color: var(--color-7B7B7B);
+}
+
+.sec4-head {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-6xl);
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: center;
+    color: var(--color-black);
+    max-width: 446px;
+}
+
+.some {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-6xl);
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: center;
+    color: var(--color-orange);
+}
+
+.card-head {
+    font-family: " Work Sans", sans-serif;
+    font-size: var(--fs-2xl);
+    font-weight: 500;
+    line-height: 24.72px;
+    text-align: center;
+    color: black;
+}
+
+.card-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: center;
+    color: var(--color-7B7B7B);
+}
+
+.maincard {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    height: 100%;
+}
+
+.card-icon {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    cursor: pointer;
+}
+
+.allicon {
+    top: 10%;
+    right: -100%;
+    transition: all 0.4s linear;
+}
+
+.maincard:hover .allicon {
+    right: 0%;
+}
+
+.card-icon:hover svg path {
+    fill: white;
+}
+
+.card-icon:hover {
+    background-color: var(--color-orange);
+}
+
 :root {
     /* font-size */
     --fs-9: 9px;
