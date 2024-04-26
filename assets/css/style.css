@@ -352,6 +352,73 @@
     background-color: var(--color-orange);
 }
 
+.sec5-head {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-6xl);
+    font-weight: 600;
+    line-height: 48.28px;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.sec5-link {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-2xl);
+    font-weight: 500;
+    line-height: 24.72px;
+    text-align: center;
+    color: var(--color-7B7B7B);
+}
+
+.sec5-link:hover {
+    color: var(--color-orange);
+}
+
+.h-120 {
+    height: 120% !important;
+}
+
+.orange-box {
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    background: #FF5300E5;
+    top: -100%;
+    left: 0%;
+}
+
+.hoverimg:hover .orange-box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hoverimg:hover .top-35 {
+    top: 35%;
+}
+
+.orange-box {
+    transition: all 1s linear;
+}
+
+.orange-head {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-4xl);
+    font-weight: 500;
+    line-height: 30.9px;
+    text-align: left;
+    color: var(--color-FFF7F4);
+}
+
+.orange-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: var(--color-FFF7F4);
+}
+
 :root {
     /* font-size */
     --fs-9: 9px;
