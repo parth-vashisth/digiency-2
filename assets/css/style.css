@@ -478,7 +478,7 @@
 }
 
 .hoverimg:hover .top-35 {
-    top: 35%;
+    top: 50%;
 }
 
 .orange-box {
@@ -501,6 +501,132 @@
     line-height: 24.1px;
     text-align: left;
     color: var(--color-FFF7F4);
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.childslider {
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    background-color: var(--color-orange);
+    position: relative;
+    padding: 20px;
+   margin-left: 90px;
+   margin-right: 90px;
+}
+
+.slider-head {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-4xl);
+    font-weight: 500;
+    line-height: 30.9px;
+    color: var(--color-FFF7F4);
+    margin-left: 45px;
+    margin-top: 15px;
+}
+.slick-slide> div{
+    display: flex !important;
+}
+.slider-txt {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    color: var(--color-FFF7F4);
+    margin-left: 45px;
+}
+
+.img-postn {
+    top: 10%;
+    z-index: 5;
+    left: -8%;
+}
+
+.slick-next,
+.slick-prev {
+    display: none;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0;
+}
+
+.slick-dots li.slick-active {
+    background-color: var(--color-black);
+    width: 49px;
+    height: 15px;
+    border-radius: 7.5px;
+    z-index: 5;
+    position: relative;
+    opacity: 100;
+}
+
+.slick-dots li button::before,
+.slick-dots li,
+slick-dots li button {
+    width: 15px;
+    height: 15px;
+    background-color: var(--color-orange);
+    opacity: 100%;
+    border-radius: 50px;
+    font-size: 0;
+    transition: all 0.4s linear;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.graphic {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: var(--color-orange);
+    margin: 0px;
+}
+
+.stellar {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-4xl);
+    font-weight: 500;
+    line-height: 30.9px;
+    text-align: left;
+    max-width: 308px;
+}
+
+.slides {
+    width: 570px;
+    padding: 10px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    margin: 20px;
+}
+
+.mr-8 {
+    margin-right: 8px !important;
+}
+
+.ml-8 {
+    margin-left: 8px !important;
+}
+
+.jan {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: var(--color-7B7B7B);
+}
+
+.cris {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-2xl);
+    font-weight: 500;
+    line-height: 24.72px;
+    color: var(--color-black);
 }
 
 :root {
