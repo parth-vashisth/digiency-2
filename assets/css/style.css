@@ -744,6 +744,7 @@ slick-dots li button {
     outline: none;
     border: none;
     resize: none;
+    color: var(--color-7B7B7B);
 }
 
 .mt-45 {
