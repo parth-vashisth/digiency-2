@@ -468,7 +468,7 @@
     position: absolute;
     background: #FF5300E5;
     top: -100%;
-    left: 0%;
+    /* left: 0%; */
 }
 
 .hoverimg:hover .orange-box {
@@ -600,8 +600,7 @@ slick-dots li button {
 }
 
 .slides {
-    width: 570px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0px 1px 10px 0px #0000001A;
     margin: 20px;
 }
@@ -629,6 +628,10 @@ slick-dots li button {
     font-weight: 500;
     line-height: 24.72px;
     color: var(--color-black);
+}
+
+.pt-120 {
+    padding-top: 120px;
 }
 
 .sec8-circle {
@@ -770,6 +773,91 @@ slick-dots li button {
     margin-top: 24px;
 }
 
+.dig,
+.dig1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-6xl);
+    font-weight: 600;
+    line-height: 48.28px;
+    color: var(--color-orange);
+}
+
+.dig1 {
+    color: var(--color-white) !important;
+}
+
+.bgclr-2 {
+    background-color: var(--color-black);
+}
+
+.lorem {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.footer-link {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.footmail {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--color-black);
+    color: var(--color-7B7B7B);
+    border: none;
+    outline: none;
+}
+
+.mailbox {
+    border: 1px solid #FF5300;
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 60px;
+    margin-top: 24px;
+}
+
+.footbtn {
+    width: 81px;
+    height: 60px;
+    background-color: var(--color-orange);
+    border: none;
+}
+
+.bgclr-3 {
+    background-color: var(--color-orange);
+}
+
+.copyright {
+    font-family: "Work Sans", sans-serif;
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    line-height: 24.1px;
+    text-align: left;
+    color: var(--color-white);
+}
+
+.pt-18 {
+    padding-top: 18px;
+}
+
+.pb-18 {
+    padding-bottom: 18px;
+}
 
 :root {
     /* font-size */
