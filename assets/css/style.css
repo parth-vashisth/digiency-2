@@ -1271,4 +1271,10 @@ slick-dots li button {
     .justify-content-center-xl {
         justify-content: center;
     }
+    .dark{
+        display: flex;
+    }
+    .light{
+        display: none;
+    }
 }
