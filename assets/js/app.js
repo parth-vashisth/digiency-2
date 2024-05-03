@@ -1,10 +1,16 @@
+let navicon = document.querySelector(".nav-icon");
+let lgview = document.querySelector(".lg-view");
+navicon.addEventListener("click", () => {
+    lgview.classList.toggle("show");
+});
 $(".parentslider").slick({
     dots: true,
     infinite: true,
     speed: 300,
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 2,
     slidesToScroll: 1,
+    arrows: false,
     responsive: [
         {
             breakpoint: 992,
@@ -12,7 +18,7 @@ $(".parentslider").slick({
                 slidesToShow: 2,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: false
+                dots: true
             }
         },
         {
@@ -20,7 +26,7 @@ $(".parentslider").slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: false
+                dots: true
             }
         }
     ]
