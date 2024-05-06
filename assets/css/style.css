@@ -445,6 +445,27 @@
     right: 1%;
 }
 
+.slick-slide {
+    margin: 0 27px;
+}
+
+.slick-list {
+    margin: 0 -27px;
+}
+
+.slides {
+    width: 100%;
+}
+
+.slick-slide>div {
+    width: 100% !important;
+}
+
+.slide-img {
+    height: 80px;
+    width: 80px;
+}
+
 .card-icon:hover svg path {
     fill: white;
 }
@@ -1135,6 +1156,11 @@ slick-dots li button {
     .mt-lg-90 {
         margin-top: 90px;
     }
+
+    .slide-img {
+        width: 164px;
+        height: 164px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -1271,10 +1297,12 @@ slick-dots li button {
     .justify-content-center-xl {
         justify-content: center;
     }
-    .dark{
+
+    .dark {
         display: flex;
     }
-    .light{
+
+    .light {
         display: none;
     }
 }
