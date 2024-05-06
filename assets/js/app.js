@@ -31,3 +31,20 @@ $(".parentslider").slick({
         }
     ]
 });
+let mybutton = document.getElementsByClassName("top-arrow")[0];
+
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "flex";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+function topFunction() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}

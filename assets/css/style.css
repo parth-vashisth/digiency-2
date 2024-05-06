@@ -915,6 +915,22 @@ slick-dots li button {
     display: flex !important;
 }
 
+.top-arrow {
+    width: 58px;
+    height: 58px;
+    background-color: var(--color-orange);
+    display: none;
+    position: fixed;
+    bottom: 0%;
+    right: 10%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+}
+
 .slick-slide>div {
     display: flex;
 }
