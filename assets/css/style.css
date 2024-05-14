@@ -35,22 +35,6 @@
     color: var(--color-black);
 }
 
-.navlink::after {
-    content: '';
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    bottom: -3px;
-    left: 50%;
-    background-color: #FF5300;
-    transform: translate(50%);
-    transition: all 0.3s linear;
-}
-
-.navlink:hover::after {
-    left: -50%;
-    width: 100%;
-}
 
 .navlink:hover {
     color: #FF5300;
